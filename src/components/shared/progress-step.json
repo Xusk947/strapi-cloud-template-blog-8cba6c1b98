@@ -1,0 +1,23 @@
+{
+  "collectionName": "components_shared_progress_steps",
+  "info": {
+    "displayName": "Progress Step",
+    "description": "Шаг в процессе или достижение"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "number": {
+      "type": "integer"
+    },
+    "icon": {
+      "type": "string"
+    }
+  }
+}

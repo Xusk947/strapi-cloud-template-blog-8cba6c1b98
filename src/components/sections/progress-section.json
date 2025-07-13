@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_sections_progress_sections",
+  "info": {
+    "displayName": "Progress Section",
+    "description": "Раздел о прогрессе и достижениях"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "steps": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.progress-step"
+    }
+  }
+}

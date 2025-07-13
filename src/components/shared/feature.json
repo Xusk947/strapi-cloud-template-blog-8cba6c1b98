@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_shared_features",
+  "info": {
+    "displayName": "Feature",
+    "description": "Особенность или преимущество"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "icon": {
+      "type": "string",
+      "description": "Название иконки (например, из библиотеки иконок)"
+    }
+  }
+}

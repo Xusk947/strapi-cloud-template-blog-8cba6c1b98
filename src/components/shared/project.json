@@ -1,0 +1,26 @@
+{
+  "collectionName": "components_shared_projects",
+  "info": {
+    "displayName": "Project",
+    "description": "Информация о проекте"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "text"
+    },
+    "image": {
+      "type": "media",
+      "multiple": false,
+      "required": true,
+      "allowedTypes": ["images"]
+    },
+    "link": {
+      "type": "string"
+    }
+  }
+}

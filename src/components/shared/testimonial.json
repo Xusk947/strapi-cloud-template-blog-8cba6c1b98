@@ -1,0 +1,33 @@
+{
+  "collectionName": "components_shared_testimonials",
+  "info": {
+    "displayName": "Testimonial",
+    "description": "Отзыв клиента"
+  },
+  "options": {},
+  "attributes": {
+    "name": {
+      "type": "string",
+      "required": true
+    },
+    "role": {
+      "type": "string"
+    },
+    "quote": {
+      "type": "text",
+      "required": true
+    },
+    "avatar": {
+      "type": "media",
+      "multiple": false,
+      "allowedTypes": [
+        "images"
+      ]
+    },
+    "rating": {
+      "type": "integer",
+      "min": 1,
+      "max": 5
+    }
+  }
+}
