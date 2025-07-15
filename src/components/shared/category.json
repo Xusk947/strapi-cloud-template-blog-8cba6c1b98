@@ -1,0 +1,29 @@
+{
+    "collectionName": "components_shared_categories",
+    "info": {
+        "displayName": "Category",
+        "description": "Категория"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "richtext"
+        },
+        "image": {
+            "type": "media",
+            "multiple": false,
+            "required": true,
+            "allowedTypes": [
+                "images"
+            ]
+        },
+        "icon": {
+            "type": "string",
+            "default": "FaDumbbell"
+        }
+    }
+}

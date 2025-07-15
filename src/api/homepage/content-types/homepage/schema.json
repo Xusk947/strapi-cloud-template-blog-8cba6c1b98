@@ -46,10 +46,30 @@
         }
       }
     },
-    "production": {
+    "benefits": {
       "type": "component",
       "repeatable": false,
-      "component": "sections.production-section",
+      "component": "sections.benefits-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "categories": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.categories-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
+    "partners": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.partner-section",
       "pluginOptions": {
         "i18n": {
           "localized": true
@@ -75,6 +95,11 @@
           "localized": true
         }
       }
+    },
+    "contact": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::contact.contact"
     }
   }
 }

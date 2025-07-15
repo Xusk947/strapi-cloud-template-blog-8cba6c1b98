@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_links_category_links",
+  "info": {
+    "displayName": "Category Link",
+    "description": "Ссылка на категорию"
+  },
+  "options": {},
+  "attributes": {
+    "category": {
+      "type": "relation",
+      "relation": "oneToOne",
+      "target": "api::category.category"
+    }
+  }
+}

@@ -1,0 +1,28 @@
+{
+    "collectionName": "components_shared_social_links",
+    "info": {
+        "displayName": "Social Link",
+        "description": "Ссылка на социальную сеть"
+    },
+    "options": {},
+    "attributes": {
+        "name": {
+            "type": "string",
+            "required": true,
+            "description": "Название социальной сети для отображения",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "url": {
+            "type": "string",
+            "required": true
+        },
+        "icon": {
+            "type": "string",
+            "description": "Название иконки из библиотеки react-icons"
+        }
+    }
+}

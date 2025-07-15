@@ -1,0 +1,22 @@
+{
+    "collectionName": "components_sections_categories_sections",
+    "info": {
+        "displayName": "Categories Section",
+        "description": "Раздел о категориях"
+    },
+    "options": {},
+    "attributes": {
+        "title": {
+            "type": "string",
+            "required": true
+        },
+        "description": {
+            "type": "richtext"
+        },
+        "categories": {
+            "type": "relation",
+            "relation": "oneToMany",
+            "target": "api::category.category"
+        }
+    }
+}

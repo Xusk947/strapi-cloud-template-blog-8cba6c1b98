@@ -1,0 +1,138 @@
+{
+    "collectionName": "components_shared_system_labels",
+    "info": {
+        "displayName": "System Labels",
+        "description": "Системные метки для перевода"
+    },
+    "options": {},
+    "attributes": {
+        "addressLabel": {
+            "type": "string",
+            "default": "Адрес",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "phoneLabel": {
+            "type": "string",
+            "default": "Телефон",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "emailLabel": {
+            "type": "string",
+            "default": "Email",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "workHoursLabel": {
+            "type": "string",
+            "default": "Часы работы",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "socialLabel": {
+            "type": "string",
+            "default": "Социальные сети",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "contactTitle": {
+            "type": "string",
+            "default": "Контакты",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "mapTitle": {
+            "type": "string",
+            "default": "Карта сайта",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "socialTitle": {
+            "type": "string",
+            "default": "Социальные сети",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "formTitle": {
+            "type": "string",
+            "default": "Оставить заявку",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "description": "Заголовок формы обратной связи"
+        },
+        "formTypeLabel": {
+            "type": "string",
+            "default": "Тип обращения",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "nameLabel": {
+            "type": "string",
+            "default": "Ваше имя",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "phoneNumberLabel": {
+            "type": "string",
+            "default": "Номер телефона",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "messageLabel": {
+            "type": "string",
+            "default": "Сообщение",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            }
+        },
+        "submitButtonLabel": {
+            "type": "string",
+            "default": "Отправить заявку",
+            "pluginOptions": {
+                "i18n": {
+                    "localized": true
+                }
+            },
+            "description": "Текст на кнопке отправки формы"
+        }
+    }
+}

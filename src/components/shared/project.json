@@ -19,6 +19,12 @@
       "required": true,
       "allowedTypes": ["images"]
     },
+    "location": {
+      "type": "string"
+    },
+    "type": {
+      "type": "string"
+    },
     "link": {
       "type": "string"
     }
