@@ -15,7 +15,7 @@
                     "localized": true
                 }
             }
-        },
+        },  
         "url": {
             "type": "string",
             "required": true
