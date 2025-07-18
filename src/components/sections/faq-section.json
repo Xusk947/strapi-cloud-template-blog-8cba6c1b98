@@ -1,0 +1,28 @@
+{
+  "collectionName": "components_sections_faq_sections",
+  "info": {
+    "displayName": "FAQ Section",
+    "description": "Раздел с часто задаваемыми вопросами"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string",
+      "required": true
+    },
+    "description": {
+      "type": "richtext"
+    },
+    "faqs": {
+      "type": "component",
+      "repeatable": true,
+      "component": "shared.faq-item"
+    },
+    "moreTitle": {
+      "type": "string"
+    },
+    "moreLink": {
+      "type": "string"
+    }
+  }
+}

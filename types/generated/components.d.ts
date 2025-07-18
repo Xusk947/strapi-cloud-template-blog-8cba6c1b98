@@ -54,6 +54,21 @@ export interface SectionsCategoriesSection extends Struct.ComponentSchema {
   };
 }
 
+export interface SectionsFaqSection extends Struct.ComponentSchema {
+  collectionName: 'components_sections_faq_sections';
+  info: {
+    description: '\u0420\u0430\u0437\u0434\u0435\u043B \u0441 \u0447\u0430\u0441\u0442\u043E \u0437\u0430\u0434\u0430\u0432\u0430\u0435\u043C\u044B\u043C\u0438 \u0432\u043E\u043F\u0440\u043E\u0441\u0430\u043C\u0438';
+    displayName: 'FAQ Section';
+  };
+  attributes: {
+    description: Schema.Attribute.RichText;
+    faqs: Schema.Attribute.Component<'shared.faq-item', true>;
+    moreLink: Schema.Attribute.String;
+    moreTitle: Schema.Attribute.String;
+    title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
 export interface SectionsHeroSection extends Struct.ComponentSchema {
   collectionName: 'components_sections_hero_sections';
   info: {
@@ -135,6 +150,20 @@ export interface SharedCategory extends Struct.ComponentSchema {
     icon: Schema.Attribute.String & Schema.Attribute.DefaultTo<'FaDumbbell'>;
     image: Schema.Attribute.Media<'images'> & Schema.Attribute.Required;
     title: Schema.Attribute.String & Schema.Attribute.Required;
+  };
+}
+
+export interface SharedFaqItem extends Struct.ComponentSchema {
+  collectionName: 'components_shared_faq_items';
+  info: {
+    description: '\u041E\u0442\u0434\u0435\u043B\u044C\u043D\u044B\u0439 \u0432\u043E\u043F\u0440\u043E\u0441 \u0438 \u043E\u0442\u0432\u0435\u0442 \u0434\u043B\u044F \u0441\u0435\u043A\u0446\u0438\u0438 FAQ';
+    displayName: 'FAQ Item';
+  };
+  attributes: {
+    answer: Schema.Attribute.RichText & Schema.Attribute.Required;
+    icon: Schema.Attribute.String &
+      Schema.Attribute.DefaultTo<'FaQuestionCircle'>;
+    question: Schema.Attribute.String & Schema.Attribute.Required;
   };
 }
 
@@ -389,12 +418,14 @@ declare module '@strapi/strapi' {
       'sections.about-section': SectionsAboutSection;
       'sections.benefits-section': SectionsBenefitsSection;
       'sections.categories-section': SectionsCategoriesSection;
+      'sections.faq-section': SectionsFaqSection;
       'sections.hero-section': SectionsHeroSection;
       'sections.partner-section': SectionsPartnerSection;
       'sections.progress-section': SectionsProgressSection;
       'sections.projects-testimonials': SectionsProjectsTestimonials;
       'shared.benefit': SharedBenefit;
       'shared.category': SharedCategory;
+      'shared.faq-item': SharedFaqItem;
       'shared.feature': SharedFeature;
       'shared.partner': SharedPartner;
       'shared.progress-step': SharedProgressStep;

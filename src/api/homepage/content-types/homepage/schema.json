@@ -86,6 +86,16 @@
         }
       }
     },
+    "faq": {
+      "type": "component",
+      "repeatable": false,
+      "component": "sections.faq-section",
+      "pluginOptions": {
+        "i18n": {
+          "localized": true
+        }
+      }
+    },
     "seo": {
       "type": "component",
       "repeatable": false,

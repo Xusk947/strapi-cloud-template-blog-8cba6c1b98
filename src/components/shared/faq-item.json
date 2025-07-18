@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_shared_faq_items",
+  "info": {
+    "displayName": "FAQ Item",
+    "description": "Отдельный вопрос и ответ для секции FAQ"
+  },
+  "options": {},
+  "attributes": {
+    "question": {
+      "type": "string",
+      "required": true
+    },
+    "answer": {
+      "type": "richtext",
+      "required": true
+    },
+    "icon": {
+      "type": "string",
+      "default": "FaQuestionCircle"
+    }
+  }
+}

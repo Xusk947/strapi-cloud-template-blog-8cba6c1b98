@@ -56,6 +56,13 @@ export default factories.createCoreController('api::homepage.homepage', ({ strap
                         }
                     }
                 },
+                faq: {
+                    populate: {
+                        faqs: {
+                            populate: '*'
+                        }
+                    }
+                },
                 seo: {
                     populate: '*'
                 },
