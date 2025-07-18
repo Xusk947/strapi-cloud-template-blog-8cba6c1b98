@@ -28,7 +28,7 @@ export default factories.createCoreController('api::homepage.homepage', ({ strap
                         }
                     }
                 },
-                categories: {
+                categories: { //
                     populate: {
                         categories: {
                             populate: '*'
